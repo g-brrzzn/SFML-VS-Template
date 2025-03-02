@@ -17,8 +17,8 @@ Before using this template, update the project properties to match your SFML ins
 The following configurations are already set up in this template:  
 
 - **Project's properties -> C/C++ > Language > C++ Language Standard >** "ISO C++ 17 Standard"  
-- **Project's properties -> C/C++ > General > Additional Include Directories >** "<sfml-install-path>/include"  
-- **Project's properties -> Linker > General > Additional Library Directories >** "<sfml-install-path>/lib"  
+- **Project's properties -> C/C++ > General > Additional Include Directories >** `"D:\libs\SFML-3.0.0\include"` *(change to your SFML directory)*
+- **Project's properties -> Linker > General > Additional Library Directories >** `"D:\libs\SFML-3.0.0\lib"` *(change to your SFML directory)*
 - **Project's properties -> Linker > Input > Additional Dependencies >** Added `"sfml-graphics.lib"`, `"sfml-window.lib"`, and `"sfml-system.lib"`  
 - **Project's properties -> Preprocessor Definitions >** Added `"SFML_STATIC"` (for static linking)  
 - **Project's properties -> Linker > Input > Additional Dependencies >** Added additional libraries for static linking, such as `"opengl32.lib"`, `"winmm.lib"`, `"gdi32.lib"`, `"freetype.lib"`, `"flac.lib"`, `"vorbisenc.lib"`, `"vorbisfile.lib"`, `"vorbis.lib"`, `"ogg.lib"`, `"ws2_32.lib"` (depending on the SFML module used)  
